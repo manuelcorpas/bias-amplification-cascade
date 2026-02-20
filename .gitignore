@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Manuscript versions (not code)
+DOCX/
+CONTEXT/
+
+# Raw LLM responses (10k+ files, reproducible via scripts)
+RESULTS/RESPONSES/
+
+# Logs
+RESULTS/*.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Planning docs (internal)
+docs/
+HANDOFF.md
